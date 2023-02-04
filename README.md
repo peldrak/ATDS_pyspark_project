@@ -20,7 +20,7 @@ scp -r .ssh/ user@slave:~/
 ```
 
 
-#### Hadoop (HDFS) Configurations:
+## Hadoop (HDFS) Configurations:
 
 ---
 ~/.bashrc
@@ -89,11 +89,12 @@ export HADOOP_CONF_DIR=$HADOOP_INSTALL/etc/hadoop
 /home/user/hadoop-3.3.4/etc/hadoop/workers
 ---
 
-master <br>
+```
+master 
 slave
+```
 
-
-#### Spark Configurations:
+## Spark Configurations:
 
 ---
 ~/.bashrc
@@ -132,5 +133,7 @@ spark.driver.memory  512m
 /home/user/spark-3.3.1-bin-hadoop3/conf/workers
 ---
 
-master <br>
+```
+master 
 slave
+```
