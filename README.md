@@ -6,8 +6,10 @@
 /etc/hosts
 ---
 
-192.168.0.1 master    #private ipv4 of master <br>
+```
+192.168.0.1 master    #private ipv4 of master 
 192.168.0.2 slave     #private ipv4 of slave
+```
 
 ---
 passwordless ssh setup 
